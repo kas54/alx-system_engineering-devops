@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -vXfm
+ls -sort -vfm
