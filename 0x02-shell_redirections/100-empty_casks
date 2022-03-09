@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -file d,f -empty
+find -empty | rev | cut -d/ -f1 | rev
